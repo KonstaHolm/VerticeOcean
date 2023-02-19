@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Titillium+Web:wght@200;400&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <title>Vertice Ocean</title>
+    <style>
+      body {
+        margin: 0;
+        --webkit-font-smoothing: antialiased;
+      }
+
+      .font-caveat {
+        font-family: 'Caveat';
+        font-size: 50px;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="container"
+      class="absolute text-white text-center bg-gray-800 bg-opacity-50 p-4 rounded-lg" 
+      style="top: 60%; transform: translate(-50%, -60%); left: 50%;"
+      >
+        <h1 class="font-caveat uppercase">Vertice Ocean</h1>
+        <p id="first" class="font-caveat opacity-0" style="transform: translateY(60%);">This evokes images of the deep blue sea, 
+          with its vastness and infinite mysteries. 
+          The ocean is an enigma that has fascinated humans for centuries, 
+          and continues to be a source of inspiration for art, literature, and science.
+        </p>
+        <p id="second" class="font-caveat opacity-0" style="transform: translateY(60%);">
+          The horizon stretches out before you in all directions, 
+          and the rhythmic sound of the waves creates a peaceful and meditative atmosphere. 
+          The ocean's waves have the power to soothe and calm, and yet they can also be violent and destructive.
+        </p>
+        <a href="https://www.nationalgeographic.com/environment/topic/oceans" id="oceanBtn" class="border px-4 py-2 rounded-xl uppercase font-caveat opacity-0 hover:bg-white hover:text-gray-800">Read more</a>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
